@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Goblin King",
+        "colors": [
+            {
+                "colorName": "Red",
+                "manaCost": 3
+            }
+        ],
+        "type": "Creature",
+        "subtype": "Goblin",
+        "description": "King of the goblins.",
+        "abilities": [
+            {
+                "name": "Mountainwalk",
+                "description": "This creature can't be blocked as long as defending player controls a Mountain."
+            }
+        ],
+        "attack": 2,
+        "defense": 2
+    },
+    {
+        "name": "Llanowar Elves",
+        "colors": [
+            {
+                "colorName": "Green",
+                "manaCost": 1
+            }
+        ],
+        "type": "Creature",
+        "subtype": "Elf Druid",
+        "description": "Sacrifice an Elf, produce a green mana",
+        "abilities": [
+            {
+                "name": "Elvish Mana",
+                "description": "Tap this card, add a green mana to your mana pool"
+            }
+        ],
+        "attack": 1,
+        "defense": 1
+    },
+    {
+        "name": "Serra Angel",
+        "colors": [
+            {
+                "colorName": "White",
+                "manaCost": 4
+            }
+        ],
+        "type": "Creature",
+        "subtype": "Angel",
+        "description": "An angelic being from Serra's realm",
+        "abilities": [
+            {
+                "name": "Vigilance",
+                "description": "Attacking doesn't cause this creature to tap."
+            },
+            {
+                "name": "Flying",
+                "description": "This creature can't be blocked except by creatures with flying or reach."
+            }
+        ],
+        "attack": 4,
+        "defense": 4
+    },
+    {
+        "name": "Undead Dragon",
+        "colors": [
+            {
+                "colorName": "Red",
+                "manaCost": 3
+            },
+            {
+                "colorName": "Black",
+                "manaCost": 2
+            }
+        ],
+        "type": "Creature",
+        "subtype": "Dragon",
+        "description": "A powerful dragon once, a powerful dragon always.",
+        "abilities": [
+            {
+                "name": "Flying",
+                "description": "This creature can't be blocked except by creatures with flying or reach."
+            },
+            {
+                "name": "Toxic Breath",
+                "description": "Each time Undead Dragon attacks it may deal 2 damage directly to opponent creature or player"
+            }
+        ],
+        "attack": 5,
+        "defense": 5
+    },
+    {
+        "name": "Mystic Mermaid",
+        "colors": [
+            {
+                "colorName": "Green",
+                "manaCost": 1
+            },
+            {
+                "colorName": "Blue",
+                "manaCost": 1
+            }
+        ],
+        "type": "Creature",
+        "subtype": "Merfolk Wizard",
+        "description": "A mystical mermaid with the power to control water and air.",
+        "abilities": [
+            {
+                "name": "Hydrokinesis",
+                "description": "Mystic Mermaid can tap to counter target spell that targets a merfolk you control."
+            },
+            {
+                "name": "Aeromancy",
+                "description": "Mystic Mermaid can tap to give target creature flying until end of turn."
+            }
+        ],
+        "attack": 2,
+        "defense": 3
+    },
+    {
+        "name": "Inferno Sphinx",
+        "colors": [
+            {
+                "colorName": "Red",
+                "manaCost": 2
+            },
+            {
+                "colorName": "Black",
+                "manaCost": 2
+            }
+        ],
+        "type": "Creature",
+        "subtype": "Sphinx",
+        "description": "A fiery sphinx that possesses knowledge of both fire and darkness.",
+        "abilities": [
+            {
+                "name": "Pyroclasm",
+                "description": "When Inferno Sphinx enters the battlefield, it deals 2 damage to each creature and player."
+            },
+            {
+                "name": "Shadow Step",
+                "description": "Inferno Sphinx can't be blocked except by creatures with shadow or flying."
+            }
+        ],
+        "attack": 4,
+        "defense": 4
+    },
+    {
+        "name": "Celestial Phoenix",
+        "colors": [
+            {
+                "colorName": "White",
+                "manaCost": 3
+            },
+            {
+                "colorName": "Blue",
+                "manaCost": 1
+            },
+            {
+                "colorName": "Red",
+                "manaCost": 1
+            }
+        ],
+        "type": "Creature",
+        "subtype": "Phoenix",
+        "description": "A majestic phoenix with the power of light, water, and fire.",
+        "abilities": [
+            {
+                "name": "Rebirth",
+                "description": "When Celestial Phoenix dies, return it to the battlefield under your control at the beginning of your next upkeep."
+            },
+            {
+                "name": "Tri-Elemental Fury",
+                "description": "Celestial Phoenix has protection from black and can't be blocked except by creatures with flying or reach."
+            }
+        ],
+        "attack": 3,
+        "defense": 3
+    }
+]

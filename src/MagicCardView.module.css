@@ -1,0 +1,46 @@
+.MagicCardView {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+    background-color: #f4f3ee;
+    width: 100%;
+    max-width: 250px;
+    min-width: 300px;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Palatino', 'serif';
+    color: #443e3e;
+    text-shadow: 1px 1px #b5a59b;
+}
+
+.MagicCardView h1 { /* Card Name */
+    margin: 5px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.MagicCardView h2 { /* Mana Cost & Attack/Defense */
+    margin: 5px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.MagicCardView h3 { /* Type/Subtype & Ability Name */
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #6b6149;
+}
+
+.MagicCardView p { /* Card Description and Ability Description */
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #6b6149;
+}
+
+.desc{
+    font-style: italic;
+}
